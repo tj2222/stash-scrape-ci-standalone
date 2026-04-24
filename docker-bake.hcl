@@ -2,7 +2,7 @@
 // variables
 variable "OWNER_NAME" {
   type = string
-  default = "feederbox826"
+  default = "tj2222"
 }
 
 variable "IMAGE_NAME" {
