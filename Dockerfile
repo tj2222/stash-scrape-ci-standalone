@@ -18,4 +18,4 @@ FROM node:alpine AS final
 WORKDIR /app
 COPY --from=assemble /app ./
 RUN npm ci
-CMD ["dist/src/index.js"]
+CMD ["node", "dist/src/index.js"]
